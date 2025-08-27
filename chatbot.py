@@ -49,10 +49,13 @@ responses = {
              "Tuition fee is mentioned on the website under 'Fee Structure'."],
     "hostel": ["Yes, hostel facilities are available for both boys and girls.", 
                "We provide hostel accommodation with mess facilities."],
-    "location": ["Our college is located in Chandigarh, Punjab.", 
+    "location": ["Our department is located in Chandigarh, Punjab.", 
                  "Panjab University address: Sector 14, Chandigarh."],
-    "entrance_exam": ["All courses require entrance exams.", 
-                      "Entrance exam is required for all programs."]
+    "entrance_exam": ["All courses require entrance exams.",
+                      "PUCET entrance qualification is mandatory", 
+                      "Entrance exam is required for all programs."],
+    "garbage": ["Sorry, invalid input",
+                "I don't understand"]                  
 }
 
 
@@ -91,7 +94,6 @@ while True:
     bot_response = random.choice(responses[intent])
     print("Admission ChatBot:", bot_response)
 # In[12]:
-
 
 
 
